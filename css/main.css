@@ -1,0 +1,83 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Montserrat';
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/***** GRID *****/
+
+.full-width {
+	margin: 0 auto;
+	width: 1200px;
+}
+.half-width {
+	float: left;
+	max-width: 600px;
+}
+.third-width {
+	float: left;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+	background: url(../img/amanda-howle-home-background.png);
+	color: #210732;
+	font-family: 'Baloo Tamma 2', cursive;
+	height: 686px;
+}
+
+header #name {
+	font-size: 30px;
+	font-weight: 800;
+	letter-spacing: -5px;
+	margin-left: 40px;
+	padding: 550px 0 0 0;
+}
+
+header #menu {
+	float: right;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: -1px;
+	padding: 595px 40px 0 0;
+	text-decoration: none;
+	word-spacing: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #210732;
+}
+header #menu ul li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+/***** ABOUT *****/
+
+main {
+	color: #b6b6b6;
+	background: #595959;
+}
+
+#about {
+	clear: both;
+	padding-bottom: 50px;
+}
+
+#about h2 {
+	font-family: 'Baloo Tamma 2', cursive;
+	font-size: 36px;
+	padding: 0 0 0 50px;
+}
+
+
+#about p {
+	font-size: 20px;
+	padding: 0 150px 0 150px;
+}
